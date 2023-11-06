@@ -76,7 +76,9 @@ hr {
   position: relative;
   padding-left: 20px;
 }
-
+#Plan h2 {
+  font-size: 70%;
+}
 .slider .slides slide img {
   width: 10%;
   border-radius: 10%;
