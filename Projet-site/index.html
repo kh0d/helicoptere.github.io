@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page1</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div id="Haut"></div>
+  <section id="Contact">
+   <p>H145 <a href="mailto:arthur.cabrol77@gmail.com">Contact</a> </p>
+  </section>
+  <br><br>
+  <div id="Plan">
+    <h2>Plan de la page</h2>
+    <ul>
+      <li><a href="#Alan">Msission</a></li>
+      <li><a href="#John">John Von Neumann</a></li>
+      <li><a href="#A-VN">Architechture de Von Neumann</a></li>
+      <li><a href="#A-H">Architecture d'Harvard</a></li>
+      <li style="border-right-style: none;"><a href="#Comp">Comparaison</a></li>
+    </ul>
+    <hr>
+  </div>
+  <div id="Plan">
+      <h2>Plan de la page 2</h2>
+    <ul>
+      <li><a href="page2.html#Bool">Georges Bool</a></li>
+      <li><a href="page2.html#Tables">Tables de Vérité</a></li>
+      <li><a href="page2.html#Shémas">Schémas</a></li>
+      <li style="border-right-style: none;"><a href="page2.html#Diff">Différence entre Capteur et Actionneur </a></li>
+    </ul>
+    <hr>
+  </div>
+
+    <div class="slider">
+      <div class="slides">
+          <slide><img src="image/1.jpeg" alt=""></slide>
+          <slide><img src="image/2.jpeg" alt=""></slide>
+          <slide><img src="image/3.jpg" alt=""></slide>
+      </div>
+    </div>
+  
+  <br><br>
+  <section id="Alan">
+    <h1>Mission</h1>
+    <hr>
+    <p>Les hélicoptères jaune et rouge de la Sécurité civile sont connus du grand public sous le nom de « Dragon ». Ils sont à la disposition des sapeurs-pompiers, mais aussi du SAMU, de la police ou encore la gendarmerie, essentiellement pour accomplir des missions de secours d’urgence et de sauvetage.
+
+      Hélicoptère "Dragon" de la Sécurité civile
+      Ces appareils, de type EC-145, sont une trentaine en France, réunis dans le groupement d’hélicoptères de la Sécurité civile (GHSC) qui intervient depuis plus de 60 ans. Ils peuvent atteindre les 220km/h, ce qui leur permet d’être très rapidement mobilisés en cas de besoin.
+      
+       L’équipage de chaque hélicoptère est composé d’un pilote et d’un mécanicien opérateur. La cabine peut ensuite accueillir plusieurs professionnels en fonction de l’intervention à effectuer. Bien que les hélicoptères Dragon de la Sécurité civile soient dédiés au secours à personne,
+       ils peuvent occasionnellement remplir des missions d'assistance technique, de police ou de reconnaissance
+       sur les feux de forêts. 
+</p>   
+  </section>
+  <br><br>
+  <section id="John">
+        <h1>John Von Neumann</h1>
+    <hr>
+    <p>John Von Neumann est un mathématicien et physicien hongrois devenu américain en 1937. Il est né le 28 décembre 1903. Il obtient à 22 ans un doctorat en mathématique à l'université de Budapest et en parallèle un diplôme de génie chimique de l'école polytechnique de Zurich. 
+Il contribuera dans sa vie a diverses innovations technologiques :
+
+De 1940 à sa mort il sera membre consultatif du Ballistic Research Laboratory et participe à la création de la première bombe nucléaire. 
+
+Il donnera aussi son nom à une architecture informatique utilisée dans la majorité des ordinateurs modernes.
+John Von Neumann participera également dans des travaux en logique mathématique et en mécanique quantique.
+
+Il meurt finalement le 8 février 1957 à Washington-DC par la cause d’un cancer des os et du pancréas probablement dû à sa forte exposition aux radiations durant ses expériences.
+
+</p>
+    </section>
+<br><br>
+  <section id="A-VN">
+        <h1>Architecture de Von Neumann</h1>
+    <hr>
+    <p>Elle est développée par ce dernier en juin 1945
+L’architecture de von Neumann décompose l’ordinateur en 4 parties distinctes :</p>
+    <ol>
+<li>l’unité arithmétique et logique ou unité de traitement : son rôle est d’effectuer les opérations de base ;</li>
+<li>l’unité de contrôle, chargée du « séquençage » des opérations ; ces deux dernières effectuent aujourd’hui le rôle du/des processeur/s</li>
+<li>la mémoire qui contient à la fois les données et le programme qui indiquera à l’unité de contrôle quels sont les calculs à faire sur ces données. La mémoire se divise entre mémoire volatile (qui correspond dans les ordinateurs d’aujourd’hui à la RAM) et mémoire permanente (qui correspond dans les ordinateurs d’aujourd’hui au disques durs(HDD comme SSD) et à la ROM) </li>
+<li>les dispositifs d’entrée-sortie, qui permettent de communiquer avec le monde extérieur.
+	Aujourd’hui cela englobe diverses choses que ce soit les périphériques ou le réseau.</li>
+  </ol>
+    <p><img id="Shéma_A-VN" src="image/Von_Neumann_architecture_fr.svg.png"/></p>
+    </section>
+<br><br>
+  <section id="A-H">
+    <h1>Architecture de type Harvard</h1>
+    <hr>
+    <p>L’architecture de type Harvard est mise en pratique pour la première fois à l’université Harvard avec le Mark I en 1944.
+L’architecture de type Harvard est une conception des processeurs qui sépare physiquement la mémoire de données et la mémoire programme.
+<br>
+<img id="Shéma_A-H" src="image/Architecture_Harvard.png"/></p>
+  </section>
+<br><br>
+  <section id="Comp">
+    <h1>Comparaison</h1>
+    <hr>
+    <p> Cette dernière est différente de celle de John Von Neumann car le CPU y est connecté au deux mémoires (RAM et ROM) de manière distincte ce qui nécessite davantage de matériel et d'espace. Cela permet à l'architecture d'Harvard d'être plus rapide, cependant il en résulte un gaspillage d'espace car les deux mémoires nécessitent leurs propres espaces, dans l'architecture de Von Neumann l'espace de la mémoire de données peut être utilisé par la mémoire d'instructions et vice-versa. </p>  
+  </section>
+  
+  <br><br><br><br>
+  <div id="P2"><a href="page2.html"> --Page 2-- </a></div>
+  <div id=Hautp><a href="#Haut"> --Haut de Page-- </a></div>
+
+</body>
+</html>
